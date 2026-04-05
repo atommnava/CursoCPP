@@ -13,5 +13,5 @@ int main(){
     text_t nombre = "Atom";
     numero_t edad = 21;
 
-    std::cout << nombre << " " << edad << std::endl;
+    std::cout << nombre << "  " << edad << std::endl;
 }
