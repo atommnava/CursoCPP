@@ -6,7 +6,8 @@ int main(){
     string nombre;
     int edad;
     cout << "Escribe tu nombre: ";
-    getline(cin, nombre);
+    // Eliminar caracteres de nueva línea o cualquier espacio en blanco
+    getline(cin >> ws, nombre);
 
     cout << "Ahora tu edad: ";
     cin >> edad;
