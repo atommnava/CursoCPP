@@ -14,5 +14,10 @@ int main(){
     char y = 100;
     cout << y << endl; // IMPLICITA≈
     cout << (char)100 << endl; // EXPLICITA
+
+    int PCorrecta = 8;
+    int PTotal = 10;
+    double porcentaje = PCorrecta / (double)PTotal * 100;
+    cout << porcentaje << "%";
     return 0;
 }

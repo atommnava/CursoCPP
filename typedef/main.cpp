@@ -1,10 +1,13 @@
 #include <iostream>
 #include <vector>
 
+
+// --------TYPEDEFS ------------
 typedef std::vector<std::pair<std::string, int>> pair_list_t;
 //typedef std::string text_t;
 //typedef int numero_t;
 
+// --------TYPE ALIASES ------------
 using text_t = std::string;
 using numero_t = int;
 

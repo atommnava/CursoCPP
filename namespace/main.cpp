@@ -1,15 +1,10 @@
 #include <iostream>
 
-namespace primero(){
-    int x = 1;
-}
-
-namespace segundo(){
-    int x = 2;
-}
+using namespace std;
 
 int main(){
     int x = 0;
-    std::cout << "X = " << primero::x;
+    string nombre = "Atom";
+    cout << "X = " << x;
     return 0;
 }
